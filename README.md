@@ -7,7 +7,7 @@
 
 TransactionShield detects potentially fraudulent financial transactions by analyzing risk factors and automatically pausing suspicious activities until a human security analyst reviews and approves them.
 
-![TransactionShield Overview](assets/transactionshield-overview.png)
+![TransactionShield Overview](transactionshield-overview.svg)
 
 ## 🔍 Overview
 
