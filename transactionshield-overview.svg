@@ -6,13 +6,13 @@
   <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">TransactionShield Workflow</text>
   
   <!-- Transaction Data Section -->
-  <rect x="50" y="70" width="150" height="80" rx="5" ry="5" fill="#3498db" fill-opacity="0.8"/>
-  <text x="125" y="105" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Transaction Data</text>
-  <text x="125" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Amount, Location, Recipient</text>
+  <rect x="50" y="70" width="170" height="80" rx="5" ry="5" fill="#3498db" fill-opacity="0.8"/>
+  <text x="135" y="105" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Transaction Data</text>
+  <text x="135" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Amount, Location, Recipient</text>
   
   <!-- Transaction Icon - Dollar Sign -->
-  <circle cx="90" cy="90" r="15" fill="white" opacity="0.7"/>
-  <text x="90" y="95" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#3498db">$</text>
+  <circle cx="70" cy="85" r="10" fill="white" opacity="0.7"/>
+  <text x="70" y="90" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#3498db">$</text>
   
   <!-- Arrow 1 -->
   <path d="M200 110 L270 110" stroke="#34495e" stroke-width="2" fill="none"/>
@@ -24,43 +24,42 @@
   <text x="345" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Pattern Recognition</text>
   
   <!-- AI Icon - Circuit -->
-  <rect x="320" y="85" width="5" height="15" fill="white"/>
-  <rect x="330" y="85" width="5" height="15" fill="white"/>
-  <rect x="340" y="85" width="5" height="15" fill="white"/>
-  <rect x="350" y="85" width="5" height="15" fill="white"/>
-  <rect x="360" y="85" width="5" height="15" fill="white"/>
-  <path d="M320 100 L365 100" stroke="white" stroke-width="2"/>
+  <rect x="290" y="82" width="3" height="8" fill="white"/>
+  <rect x="296" y="82" width="3" height="8" fill="white"/>
+  <rect x="302" y="82" width="3" height="8" fill="white"/>
+  <rect x="308" y="82" width="3" height="8" fill="white"/>
+  <path d="M290 90 L311 90" stroke="white" stroke-width="1.5"/>
   
   <!-- Arrow 2 -->
   <path d="M420 110 L490 110" stroke="#34495e" stroke-width="2" fill="none"/>
   <polygon points="490,110 480,105 480,115" fill="#34495e"/>
   
   <!-- Risk Assessment Section -->
-  <rect x="490" y="70" width="150" height="80" rx="5" ry="5" fill="#e74c3c" fill-opacity="0.8"/>
-  <text x="565" y="105" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Risk Assessment</text>
-  <text x="565" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Low, Medium, High, Critical</text>
+  <rect x="490" y="70" width="170" height="80" rx="5" ry="5" fill="#e74c3c" fill-opacity="0.8"/>
+  <text x="575" y="105" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Risk Assessment</text>
+  <text x="575" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Low, Medium, High, Critical</text>
   
-  <!-- Shield Icon -->
-  <path d="M535 85 L520 95 L520 115 L535 125 L550 115 L550 95 Z" fill="white" opacity="0.7"/>
-  <path d="M535 90 L525 98 L525 112 L535 120 L545 112 L545 98 Z" fill="#e74c3c" opacity="0.7"/>
+  <!-- Shield Icon - Raised position -->
+  <path d="M510 80 L500 85 L500 95 L510 100 L520 95 L520 85 Z" fill="white" opacity="0.7"/>
+  <path d="M510 82 L503 86 L503 94 L510 98 L517 94 L517 86 Z" fill="#e74c3c" opacity="0.7"/>
   
   <!-- Arrows from Risk Assessment -->
-  <path d="M565 150 L565 190" stroke="#34495e" stroke-width="2" fill="none"/>
-  <polygon points="565,190 560,180 570,180" fill="#34495e"/>
+  <path d="M575 150 L575 190" stroke="#34495e" stroke-width="2" fill="none"/>
+  <polygon points="575,190 570,180 580,180" fill="#34495e"/>
   
-  <!-- Decision Diamond -->
-  <polygon points="565,190 595,220 565,250 535,220" fill="#f1c40f" stroke="#34495e" stroke-width="1"/>
-  <text x="565" y="225" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#34495e">High Risk?</text>
+  <!-- Decision Diamond - ENLARGED to fit text better -->
+  <polygon points="575,190 615,220 575,250 535,220" fill="#f1c40f" stroke="#34495e" stroke-width="1"/>
+  <text x="575" y="225" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#34495e">High Risk?</text>
   
   <!-- Arrow to Auto Approval -->
   <path d="M535 220 L430 220" stroke="#34495e" stroke-width="2" fill="none"/>
   <polygon points="430,220 440,215 440,225" fill="#34495e"/>
-  <text x="480" y="210" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#34495e">No</text>
+  <text x="475" y="210" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#34495e">No</text>
   
-  <!-- Arrow to Analyst Review -->
-  <path d="M595 220 L700 220" stroke="#34495e" stroke-width="2" fill="none"/>
-  <polygon points="700,220 690,215 690,225" fill="#34495e"/>
-  <text x="650" y="210" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#34495e">Yes</text>
+  <!-- Arrow to Analyst Review (ADJUSTED) -->
+  <path d="M615 220 L625 220" stroke="#34495e" stroke-width="2" fill="none"/>
+  <polygon points="625,220 615,215 615,225" fill="#34495e"/>
+  <text x="620" y="210" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#34495e">Yes</text>
   
   <!-- Auto Approval Section -->
   <rect x="280" y="180" width="150" height="80" rx="5" ry="5" fill="#2ecc71" fill-opacity="0.8"/>
@@ -68,25 +67,33 @@
   <text x="355" y="240" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Low/Medium Risk</text>
   
   <!-- Checkmark Icon -->
-  <circle cx="315" cy="215" r="15" fill="white" opacity="0.7"/>
-  <path d="M305 215 L312 222 L325 208" stroke="#2ecc71" stroke-width="3" fill="none"/>
+  <circle cx="300" cy="195" r="8" fill="white" opacity="0.7"/>
+  <path d="M295 195 L299 199 L305 192" stroke="#2ecc71" stroke-width="2" fill="none"/>
   
-  <!-- Analyst Review Section -->
-  <rect x="700" y="180" width="150" height="80" rx="5" ry="5" fill="#e67e22" fill-opacity="0.8"/>
-  <text x="775" y="215" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Security Analyst</text>
-  <text x="775" y="240" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Human Review</text>
+  <!-- Analyst Review Section - REPOSITIONED -->
+  <rect x="625" y="180" width="150" height="80" rx="5" ry="5" fill="#e67e22" fill-opacity="0.8"/>
+  <text x="700" y="215" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Security Analyst</text>
+  <text x="700" y="240" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Human Review</text>
   
   <!-- Human Icon -->
-  <circle cx="735" cy="205" r="12" fill="white" opacity="0.8"/>
-  <circle cx="735" cy="195" r="5" fill="white" opacity="0.8"/>
-  <path d="M720 225 C725 215 745 215 750 225" stroke="white" stroke-width="2" fill="none"/>
+  <circle cx="645" cy="195" r="8" fill="white" opacity="0.8"/>
+  <circle cx="645" cy="190" r="3" fill="white" opacity="0.8"/>
+  <path d="M638 203 C641 198 649 198 652 203" stroke="white" stroke-width="1.5" fill="none"/>
   
   <!-- Arrows to Final Section -->
   <path d="M355 260 L355 300" stroke="#34495e" stroke-width="2" fill="none"/>
   <polygon points="355,300 350,290 360,290" fill="#34495e"/>
   
-  <path d="M775 260 L775 300 L445 300" stroke="#34495e" stroke-width="2" fill="none"/>
-  <polygon points="445,300 455,295 455,305" fill="#34495e"/>
+  <!-- Define arrowhead marker for smoother connections -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#34495e"/>
+    </marker>
+  </defs>
+  
+  <!-- Adjusted path for analyst review to final section - connected to center -->
+  <path d="M700 260 L700 340 L620 340" stroke="#34495e" stroke-width="2" fill="none"/>
+  <polygon points="620,340 630,335 630,345" fill="#34495e"/>
   
   <!-- Transaction Processing Section -->
   <rect x="270" y="300" width="350" height="80" rx="5" ry="5" fill="#1abc9c" fill-opacity="0.8"/>
@@ -94,7 +101,7 @@
   <text x="445" y="360" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Execute, Document, and Monitor</text>
   
   <!-- Processing Icon -->
-  <circle cx="330" cy="340" r="15" fill="white" opacity="0.7"/>
-  <path d="M330 325 L330 355 M318 340 L342 340" stroke="#1abc9c" stroke-width="2"/>
-  <circle cx="330" cy="340" r="7" fill="#1abc9c" opacity="0.7"/>
+  <circle cx="290" cy="320" r="8" fill="white" opacity="0.7"/>
+  <path d="M290 312 L290 328 M282 320 L298 320" stroke="#1abc9c" stroke-width="1.5"/>
+  <circle cx="290" cy="320" r="4" fill="#1abc9c" opacity="0.7"/>
 </svg>
