@@ -1,0 +1,100 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">TransactionShield Workflow</text>
+  
+  <!-- Transaction Data Section -->
+  <rect x="50" y="70" width="150" height="80" rx="5" ry="5" fill="#3498db" fill-opacity="0.8"/>
+  <text x="125" y="105" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Transaction Data</text>
+  <text x="125" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Amount, Location, Recipient</text>
+  
+  <!-- Transaction Icon - Dollar Sign -->
+  <circle cx="90" cy="90" r="15" fill="white" opacity="0.7"/>
+  <text x="90" y="95" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#3498db">$</text>
+  
+  <!-- Arrow 1 -->
+  <path d="M200 110 L270 110" stroke="#34495e" stroke-width="2" fill="none"/>
+  <polygon points="270,110 260,105 260,115" fill="#34495e"/>
+  
+  <!-- AI Analysis Section -->
+  <rect x="270" y="70" width="150" height="80" rx="5" ry="5" fill="#9b59b6" fill-opacity="0.8"/>
+  <text x="345" y="105" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">AI Risk Analysis</text>
+  <text x="345" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Pattern Recognition</text>
+  
+  <!-- AI Icon - Circuit -->
+  <rect x="320" y="85" width="5" height="15" fill="white"/>
+  <rect x="330" y="85" width="5" height="15" fill="white"/>
+  <rect x="340" y="85" width="5" height="15" fill="white"/>
+  <rect x="350" y="85" width="5" height="15" fill="white"/>
+  <rect x="360" y="85" width="5" height="15" fill="white"/>
+  <path d="M320 100 L365 100" stroke="white" stroke-width="2"/>
+  
+  <!-- Arrow 2 -->
+  <path d="M420 110 L490 110" stroke="#34495e" stroke-width="2" fill="none"/>
+  <polygon points="490,110 480,105 480,115" fill="#34495e"/>
+  
+  <!-- Risk Assessment Section -->
+  <rect x="490" y="70" width="150" height="80" rx="5" ry="5" fill="#e74c3c" fill-opacity="0.8"/>
+  <text x="565" y="105" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Risk Assessment</text>
+  <text x="565" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Low, Medium, High, Critical</text>
+  
+  <!-- Shield Icon -->
+  <path d="M535 85 L520 95 L520 115 L535 125 L550 115 L550 95 Z" fill="white" opacity="0.7"/>
+  <path d="M535 90 L525 98 L525 112 L535 120 L545 112 L545 98 Z" fill="#e74c3c" opacity="0.7"/>
+  
+  <!-- Arrows from Risk Assessment -->
+  <path d="M565 150 L565 190" stroke="#34495e" stroke-width="2" fill="none"/>
+  <polygon points="565,190 560,180 570,180" fill="#34495e"/>
+  
+  <!-- Decision Diamond -->
+  <polygon points="565,190 595,220 565,250 535,220" fill="#f1c40f" stroke="#34495e" stroke-width="1"/>
+  <text x="565" y="225" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#34495e">High Risk?</text>
+  
+  <!-- Arrow to Auto Approval -->
+  <path d="M535 220 L430 220" stroke="#34495e" stroke-width="2" fill="none"/>
+  <polygon points="430,220 440,215 440,225" fill="#34495e"/>
+  <text x="480" y="210" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#34495e">No</text>
+  
+  <!-- Arrow to Analyst Review -->
+  <path d="M595 220 L700 220" stroke="#34495e" stroke-width="2" fill="none"/>
+  <polygon points="700,220 690,215 690,225" fill="#34495e"/>
+  <text x="650" y="210" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#34495e">Yes</text>
+  
+  <!-- Auto Approval Section -->
+  <rect x="280" y="180" width="150" height="80" rx="5" ry="5" fill="#2ecc71" fill-opacity="0.8"/>
+  <text x="355" y="215" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Auto Approval</text>
+  <text x="355" y="240" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Low/Medium Risk</text>
+  
+  <!-- Checkmark Icon -->
+  <circle cx="315" cy="215" r="15" fill="white" opacity="0.7"/>
+  <path d="M305 215 L312 222 L325 208" stroke="#2ecc71" stroke-width="3" fill="none"/>
+  
+  <!-- Analyst Review Section -->
+  <rect x="700" y="180" width="150" height="80" rx="5" ry="5" fill="#e67e22" fill-opacity="0.8"/>
+  <text x="775" y="215" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Security Analyst</text>
+  <text x="775" y="240" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Human Review</text>
+  
+  <!-- Human Icon -->
+  <circle cx="735" cy="205" r="12" fill="white" opacity="0.8"/>
+  <circle cx="735" cy="195" r="5" fill="white" opacity="0.8"/>
+  <path d="M720 225 C725 215 745 215 750 225" stroke="white" stroke-width="2" fill="none"/>
+  
+  <!-- Arrows to Final Section -->
+  <path d="M355 260 L355 300" stroke="#34495e" stroke-width="2" fill="none"/>
+  <polygon points="355,300 350,290 360,290" fill="#34495e"/>
+  
+  <path d="M775 260 L775 300 L445 300" stroke="#34495e" stroke-width="2" fill="none"/>
+  <polygon points="445,300 455,295 455,305" fill="#34495e"/>
+  
+  <!-- Transaction Processing Section -->
+  <rect x="270" y="300" width="350" height="80" rx="5" ry="5" fill="#1abc9c" fill-opacity="0.8"/>
+  <text x="445" y="335" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">Transaction Processing</text>
+  <text x="445" y="360" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Execute, Document, and Monitor</text>
+  
+  <!-- Processing Icon -->
+  <circle cx="330" cy="340" r="15" fill="white" opacity="0.7"/>
+  <path d="M330 325 L330 355 M318 340 L342 340" stroke="#1abc9c" stroke-width="2"/>
+  <circle cx="330" cy="340" r="7" fill="#1abc9c" opacity="0.7"/>
+</svg>
